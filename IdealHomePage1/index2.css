@@ -124,6 +124,7 @@ ol li.red {
 #mainNav .hc-logobox img { 
 	height: 40px; 
 }
+/*隐藏多余的导航栏*/
 #mainNav .hc-contact,  #mainNav .hc-navbox { 
 	height: 30px; 
 	overflow: hidden; 
