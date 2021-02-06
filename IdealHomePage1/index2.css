@@ -253,7 +253,7 @@ ol li.red {
 	height: 50px; 
 	padding: 10px; 
 }
-
+/*画框*/
 #mainNav .hc-oi { 
 	width: 24px; 
 	height: 24px; 
@@ -276,6 +276,9 @@ ol li.red {
 	padding: 3px; 
 	box-shadow: 0 1px 5px #705900 inset; 
 }
+/*核心要点：
+1.em元素inline-block
+2. em设定宽高和背景色划线*/
 #mainNav .hc-oi em { 
 	position: absolute; 
 	left: 50%; top: 50%; 
