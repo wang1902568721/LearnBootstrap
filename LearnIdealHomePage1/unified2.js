@@ -13,7 +13,6 @@ $(document).ready(function() {
 		}
 	});
 		$('#oiBtn').click(function() {
-		//var oiicn = $('#oiBtn em')
 		$('#oiBtn').toggleClass("hc-io")
 		$('#navBox').toggleClass("hc-navbox01 hc-navbox")
 		if($('#navBox').hasClass("hc-navbox01")) {

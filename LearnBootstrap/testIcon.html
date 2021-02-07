@@ -26,7 +26,7 @@
 	background-color: #353535; 
 	z-index: 10; 
 }
-.hc-oi em::before,   .hc-oi em:after,   .hc-oi em::before,   .hc-oi em:after { 
+.hc-oi em::before, .hc-oi em:after{ 
 	content: ''; 
 	position: absolute; 
 	top: 0; 
@@ -47,10 +47,50 @@
 .hc-oi em::after { 
 	transform: translateY(6px) rotate(0deg); 
 }
+
+.hc-io {
+	width: 24px; 
+	height: 24px; 
+	border-radius: 4px; 
+	background: #fccb0d; 
+	position: absolute; 
+
+	padding: 3px; 
+	box-shadow: 0 1px 5px #705900 inset; 
+}
+.hc-io em { 
+	background: rgba(53, 53, 53, 0); 
+}
+.hc-io em::before { 
+	-webkit-transform: translateY(0px) rotate(45deg); 
+	-moz-transform: translateY(0px) rotate(45deg); 
+	-ms-transform: translateY(0px) rotate(45deg); 
+	-o-transform: translateY(0px) rotate(45deg); 
+	transform: translateY(0px) rotate(45deg); 
+}
+.hc-io em::after { 
+	-webkit-transform: translateY(0px) rotate(-45deg); 
+	-moz-transform: translateY(0px) rotate(-45deg); 
+	-ms-transform: translateY(0px) rotate(-45deg); 
+	-o-transform: translateY(0px) rotate(-45deg); 
+	transform: translateY(0px) rotate(-45deg); 
+}
+#oiBtn2 {
+	left:10em;
+	top: 10em;
+}
         </style>
     </head>
     <body>
         <div id="oiBtn" class="hc-oi">
+            <em></em>
+		</div>
+
+		<div id="oiBtn1" class="hc-io">
+            <em></em>
+		</div>
+		
+		<div id="oiBtn2" class="hc-oi hc-io">
             <em></em>
         </div>
     </body>

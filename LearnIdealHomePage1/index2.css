@@ -222,7 +222,7 @@ ol li.red {
 	padding-top: 0px; 
 	
 	overflow: hidden; 
-	opacity: 1; 
+	opacity: 0; 
 	transition: .5s; 
 }
 .hc-navbox01 { 
