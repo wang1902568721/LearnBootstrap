@@ -92,6 +92,7 @@ ol {
 	top: 90vh; 
 	z-index: 10 
 }
+/*轮播图切换按钮*/
 ol li { 
 	float: left; 
 	width: 50px; 
@@ -222,16 +223,16 @@ ol li.red {
 	padding-top: 0px; 
 	
 	overflow: hidden; 
-	opacity: 0; 
+	opacity: 0; /*菜单本身是显示的，只是透明了*/
 	transition: .5s; 
 }
 .hc-navbox01 { 
 	width: 100%; 
 	position: absolute; 
-	top: 0; 
+	top: 0; /*让导航页面顶格显示*/
 	background: rgba(255, 255, 255, .9); 
 	z-index: -1; margin: 0 -15px; 
-	padding-top: 50px; 
+	padding-top: 50px; /*让内容下沉50px，给顶部流出空间*/
 	height: 100vh; 
 	overflow: hidden; 
 	opacity: 1; 
@@ -248,6 +249,7 @@ ol li.red {
 #navBox li:active { 
 	background: #fff; 
 }
+/*不显示英文菜单项*/
 #navBox li .nav-on { 
 	display: none; 
 }

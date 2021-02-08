@@ -12,6 +12,7 @@ $(document).ready(function() {
 			$(".hc-logobox img").attr('src', 'img/img/logo.png');
 		}
 	});
+	//小屏幕下菜单的显示控制
 		$('#oiBtn').click(function() {
 		$('#oiBtn').toggleClass("hc-io")
 		$('#navBox').toggleClass("hc-navbox01 hc-navbox")
@@ -32,12 +33,12 @@ var i = -1;
 var timer = 0;
 $(document).ready(function() {
 
-	var len = $(".banner li").index();
+	var len = $(".banner li").length;
 	var olh = '<li></li>';
-	for(var i = 0; i < (len + 1); i++) {
+	//根据轮播图个数添加按钮
+	for(var i = 0; i < len; i++) {
 		$("ol").append(olh);
-	} //根据图片的index数，加载原点
-	//	$("ol").find('li').first().addClass('red');
+	} 
 
 	move();
 	timer = setInterval("move()", 4000);
@@ -48,7 +49,7 @@ $(document).ready(function() {
 	}) //鼠标经过停止，离开运行
 
 	$('.hc-banner ol li').click(function() {
-		var ddIndex = $(this).index() - 1;
+		var ddIndex = $(this).length - 1;
 		i = ddIndex;
 		move();
 	}) //小圆点控制
