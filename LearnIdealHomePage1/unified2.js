@@ -63,12 +63,13 @@ function move() {
 	if(i >= 2) {
 		i = 0;
 	}
-
+	
 	if(screenWidth >= 1100) {
 		$('.hc-fly').css({ "height": "100vh", opacity: 0 });
 		if(i < 2) {
 			if(i == 0) {
 				//$('.fst-li').fadeIn(100).siblings().fadeOut(100);
+				//按钮动画
 				$('.hc-banner ol li').eq(i).addClass('red').siblings().removeClass('red');
 				$('.hc-banner ul li').eq(i).fadeIn(100).siblings().fadeOut();
 				$('.hc-fly').animate({ "height": "45vh", opacity: 1 }, 2000);
