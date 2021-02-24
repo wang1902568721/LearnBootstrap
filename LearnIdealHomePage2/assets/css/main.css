@@ -224,11 +224,16 @@ label{
 @keyframes pulseBig{0%{box-shadow:0 0 0 0 #fff}50%{box-shadow:0 0 0 30px transparent}100%{box-shadow:0 0 0 0 transparent}}
 #scrollUp{
     background:#062a35;
-    height:40px;width:40px;
-    right:50px;bottom:77px;
-    color:#fff;font-size:20px;
-    text-align:center;border-radius:50%;
-    font-size:20px;line-height:40px
+    height:40px;
+    width:40px;
+    right:50px;
+    bottom:77px;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    border-radius:50%;
+    font-size:20px;
+    line-height:40px
 }
 #scrollUp:hover{background:#333}
 [data-overlay]{position:relative;background-size:cover;background-repeat:no-repeat;background-position:center center}
@@ -476,13 +481,19 @@ label{
 @media only screen and (min-width:992px) and (max-width:1200px){.side-mobile-menu{display:block}}
 @media only screen and (min-width:768px) and (max-width:991px){.side-mobile-menu{display:block}}
 @media(max-width:767px){.side-mobile-menu{display:block}}
-@media only screen and (min-width:576px) and (max-width:767px){.side-mobile-menu{display:block}}.offset-sidebar{display:block;margin-top:30px}
+@media only screen and (min-width:576px) and (max-width:767px){.side-mobile-menu{display:block}}
+.offset-sidebar{
+    display:block;
+    margin-top:30px;
+}
 @media only screen and (min-width:992px) and (max-width:1200px){.offset-sidebar{display:none}}
 @media only screen and (min-width:768px) and (max-width:991px){.offset-sidebar{display:none}}
 @media(max-width:767px){.offset-sidebar{display:none}}
-@media only screen and (min-width:576px) and (max-width:767px){.offset-sidebar{display:none}}.custom-container{max-width:1450px;margin:0 auto}
+@media only screen and (min-width:576px) and (max-width:767px){.offset-sidebar{display:none}}
+.custom-container{max-width:1450px;margin:0 auto}
 @media only screen and (min-width:1601px) and (max-width:1800px){.main-menu-02 nav>ul>li{margin-left:16px;margin-right:17px}}
-@media only screen and (min-width:1601px) and (max-width:1800px){.main-menu-02 nav>ul>li{margin-left:6px;margin-right:7px}}.main-menu-02 nav>ul>li>a{color:#fff}
+@media only screen and (min-width:1601px) and (max-width:1800px){.main-menu-02 nav>ul>li{margin-left:6px;margin-right:7px}}
+.main-menu-02 nav>ul>li>a{color:#fff}
 @media only screen and (min-width:992px) and (max-width:1200px){
     .header-transparent-02{padding:10px 15px}
 }
@@ -492,7 +503,8 @@ label{
 @media(max-width:767px){
     .header-transparent-02{padding:10px 15px}
 }
-@media only screen and (min-width:576px) and (max-width:767px){.header-transparent-02{padding:10px 15px}}.header-transparent-02 .sticky{background:#1a245d}
+@media only screen and (min-width:576px) and (max-width:767px){.header-transparent-02{padding:10px 15px}}
+.header-transparent-02 .sticky{background:#1a245d}
 @media only screen and (min-width:992px) and (max-width:1200px){.header-transparent-02 .sticky{padding:10px 15px}}
 @media only screen and (min-width:768px) and (max-width:991px){.header-transparent-02 .sticky{padding:10px 15px}}
 @media(max-width:767px){.header-transparent-02 .sticky{padding:10px 15px}}
@@ -502,10 +514,12 @@ label{
 .hero-area .slider-img{
     position:absolute;right:0;top:20px;z-index:1;width:51%;height:auto
 }
-@media only screen and (min-width:1200px) and (max-width:1600px){.hero-area .slider-img{top:200px}}.slider-height{min-height:950px;background-position:center top}
+@media only screen and (min-width:1200px) and (max-width:1600px){.hero-area .slider-img{top:200px}}
+.slider-height{min-height:950px;background-position:center top}
 @media only screen and (min-width:992px) and (max-width:1200px){.slider-height{min-height:650px}}
 @media only screen and (min-width:768px) and (max-width:991px){.slider-height{min-height:650px}}
-@media(max-width:767px){.slider-height{min-height:550px}}.single-slider{background-position:center center;background-size:cover}.hero-content{position:relative;z-index:3}
+@media(max-width:767px){.slider-height{min-height:550px}}.single-slider{background-position:center center;background-size:cover}
+.hero-content{position:relative;z-index:3}
 @media only screen and (min-width:768px) and (max-width:991px){.hero-content{margin-top:8px}}
 @media(max-width:767px){.hero-content{margin-top:8px}}
 .hero-slider-caption span{font-size:18px;font-weight:600;color:#ea5822;text-transform:capitalize}
