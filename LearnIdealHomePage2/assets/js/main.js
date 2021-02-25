@@ -1,4 +1,9 @@
-(function($){"use strict";$('#mobile-menu-active').metisMenu();$('#mobile-menu-active .has-dropdown > a').on('click',function(e){e.preventDefault();});
+(function($){
+    "use strict";
+    $('#mobile-menu-active').metisMenu();
+    $('#mobile-menu-active .has-dropdown > a').on('click',function(e){
+        e.preventDefault();
+    });
 $(".hamburger-menu > a").on("click",
 function(e){
     e.preventDefault();
