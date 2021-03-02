@@ -108,7 +108,8 @@ $('.brand-active').slick({
         {breakpoint:467,settings:{slidesToShow:1,slidesToScroll:1,arrows:false,}}
     ]
 });
-$('select').niceSelect();$('.counter').counterUp({delay:10,time:1000});
+$('select').niceSelect();
+$('.counter').counterUp({delay:10,time:1000});
 $('.popup-video').magnificPopup({type:'iframe'});
 $('.popup-image').magnificPopup({type:'image',gallery:{enabled:true}});
 $('#portfolio-grid').imagesLoaded(function(){
