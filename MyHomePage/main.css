@@ -1,6 +1,9 @@
 li {
     list-style: none;
 }
+a:focus,a:hover {
+    text-decoration: none;
+}
 .wrapper {
     width:95%;
     margin:0 auto;
