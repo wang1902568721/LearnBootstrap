@@ -8,13 +8,40 @@ li {
 }
 nav>ul>li {
     display:inline-block;
-    margin-right:2em;
+    margin-right:2em;/*隔开每一项*/
 }
 nav>ul>li>a {
-    line-height: 1;
+    display:inline-block;
     text-transform: capitalize;
+    line-height: 1;
+    padding:47px 0;/*撑开上下空间*/
 }
 
 .text-center {
     text-align:center;
+}
+
+.c-btn{
+    backface-visibility:hidden;
+    color:#062a35;
+    display:inline-block;
+    font-size:14px;
+    line-height:1;
+    padding:22px 36px;
+    position:relative;
+    text-align:center;
+    transition:.3s;
+    font-weight:700;
+    text-transform:uppercase;
+    border:2px solid #ddd;
+    font-family:roboto
+}
+
+.btn-round{
+    background:0 0;
+    border-radius:30px;
+    border-color:#4f4d80;
+    display:inline-block;
+    color:#fff;
+    padding:14px 30px
 }
