@@ -578,7 +578,7 @@ label{
 }
 .main-menu nav>ul>li:hover>a,.main-menu nav>ul>li.active>a{color:#ea5822}
 /*子菜单栏默认不可见*/
-.main-menu nav>ul>li .sub-menu{
+.main-menu nav>ul>li .sub-menu {
     background:#fff none repeat scroll 0 0;
     box-shadow:0 6px 12px rgba(0,0,0,.176);
     left:0;
@@ -735,8 +735,10 @@ label{
 .hero-02-content .catlist li a{color:#fff;font-size:18px;line-height:1;font-family:hind;font-weight:600;position:relative;padding:0 25px}
 .hero-02-content .catlist li a::before{content:'';position:absolute;border:2px solid #4f4d80;width:13px;height:13px;border-radius:50%;left:-5px;top:7px}
 .hero-02-content .catlist li a::after{content:'';position:absolute;background:#4f4d80;width:5px;height:5px;border-radius:50%;left:-1px;top:11px}
-.hero-02-content h2{color:#fff;margin-bottom:20px}.hero-02-content p{color:#fff;margin-bottom:40px}
-.hero-02-content .hero-slider-caption a.c-btn{padding:20px 40px}.counter-bg{margin-top:-76px;position:relative;z-index:3}
+.hero-02-content h2{color:#fff;margin-bottom:20px}
+.hero-02-content p{color:#fff;margin-bottom:40px}
+.hero-02-content .hero-slider-caption a.c-btn{padding:20px 40px}
+.counter-bg{margin-top:-76px;position:relative;z-index:3}
 @media only screen and (min-width:992px) and (max-width:1200px){.counter-bg{margin-top:50px}}
 @media only screen and (min-width:768px) and (max-width:991px){.counter-bg{margin-top:50px}}
 @media(max-width:767px){.counter-bg{margin-top:50px}}
@@ -1300,12 +1302,21 @@ label{
 }
 @media(max-width:767px){.events-wrapper-03 .events-contents .events-meta span{float:none;width:100%}}
 .events-wrapper-03 .events-contents .events-meta span a{font-family:hind}
-.events-wrapper-03 .events-contents a.c-btn{padding:17px 35px}.pagination li{margin:0 4px}
+.events-wrapper-03 .events-contents a.c-btn{padding:17px 35px}
+.pagination li{margin:0 4px}
 .pagination li.page-item:first-child .page-link{border-radius:50%}
 .pagination li.page-item:last-child .page-link{border-radius:50%}
 .pagination li a{
-    color:#062a35;font-size:18px;line-height:43px;font-weight:700;font-family:roboto;display:inline-block;width:60px;height:60px;
-    border:1px solid #ebebeb;border-radius:50%;
+    color:#062a35;
+    font-size:18px;
+    line-height:43px;
+    font-weight:700;
+    font-family:roboto;
+    display:inline-block;
+    width:60px;
+    height:60px;
+    border:1px solid #ebebeb;
+    border-radius:50%;
     text-align:center;
     -webkit-transition:all .4s ease-out 0s;
     -moz-transition:all .4s ease-out 0s;
@@ -1356,11 +1367,26 @@ label{
     -o-transition:all .4s ease-out 0s;
     transition:all .4s ease-out 0s
 }
-.text-list li a:hover::before{color:#fff;background:#3662ff;border-color:transparent}
+.text-list li a:hover::before{
+    color:#fff;
+    background:#3662ff;
+    border-color:transparent
+}
 .map-area iframe{width:100%;height:420px}
 .c-btn{
-    backface-visibility:hidden;color:#062a35;display:inline-block;font-size:14px;line-height:1;padding:22px 36px;
-    position:relative;text-align:center;transition:.3s;font-weight:700;text-transform:uppercase;border:2px solid #ddd;font-family:roboto
+    backface-visibility:hidden;
+    color:#062a35;
+    display:inline-block;
+    font-size:14px;
+    line-height:1;
+    padding:22px 36px;
+    position:relative;
+    text-align:center;
+    transition:.3s;
+    font-weight:700;
+    text-transform:uppercase;
+    border:2px solid #ddd;
+    font-family:roboto
 }
 .c-btn i{font-size:16px;padding-left:12px}
 .c-btn:hover{color:#fff;border-color:#ea5822;background:#ea5822}
@@ -1368,7 +1394,14 @@ label{
 .btn-theme:hover{background:#062a35;color:#fff}
 .btn-white{background:#fff;color:#062a35;transition:.3s;border:none;padding:23px 36px}
 .btn-white:hover{background:#ea5822;color:#fff}
-.btn-round{background:0 0;border-radius:30px;border-color:#4f4d80;display:inline-block;color:#fff;padding:14px 30px}
+.btn-round{
+    background:0 0;
+    border-radius:30px;
+    border-color:#4f4d80;
+    display:inline-block;
+    color:#fff;
+    padding:14px 30px
+}
 @media only screen and (min-width:1200px) and (max-width:1600px){.btn-round{padding:12px 10px}}
 .btn-round i{margin-right:5px}
 .btn-round:hover{background:#3662ff;border-color:#3662ff}
