@@ -515,7 +515,17 @@ label{
 @media only screen and (min-width:576px) and (max-width:767px){
     .logo a img{max-width:100%}
 }
-.header-icon a{height:50px;width:50px;line-height:50px;text-align:center;display:inline-block;font-size:18px;background:#fff;color:#ea5822;margin-right:2px;transition:.3s}
+.header-icon a{
+    height:50px;width:50px;
+    line-height:50px;
+    text-align:center;
+    display:inline-block;
+    font-size:18px;
+    background:#fff;
+    color:#ea5822;
+    margin-right:2px;
+    transition:.3s
+}
 @media only screen and (min-width:1200px) and (max-width:1600px){
     .header-icon a{width:42px}
 }
@@ -804,10 +814,12 @@ label{
 @media only screen and (min-width:576px) and (max-width:767px){.course-text .course-meta span:nth-child(2){margin:0 35px}}
 .course-text .course-meta span i{color:#ea5822}
 .course-wrapper{
-    position:relative;-webkit-transition:all .4s ease-out 0s;
+    position:relative;
+    -webkit-transition:all .4s ease-out 0s;
     -moz-transition:all .4s ease-out 0s;
     -ms-transition:all .4s ease-out 0s;
-    -o-transition:all .4s ease-out 0s;transition:all .4s ease-out 0s
+    -o-transition:all .4s ease-out 0s;
+    transition:all .4s ease-out 0s
 }
 .course-wrapper .course-img a{overflow:hidden;display:block;position:relative}
 .course-wrapper .course-img a::before{
@@ -848,7 +860,8 @@ label{
     -moz-transition:all .3s ease-out 0s;
     -ms-transition:all .3s ease-out 0s;
     -o-transition:all .3s ease-out 0s;
-    transition:all .3s ease-out 0s;z-index:3
+    transition:all .3s ease-out 0s;
+    z-index:3
 }
 @media only screen and (min-width:992px) and (max-width:1200px){.course-text-02{padding:15px}}
 @media only screen and (min-width:768px) and (max-width:991px){.course-text-02{padding:15px}}
@@ -906,15 +919,32 @@ label{
 .course-cat-02-text h4 a{color:#fff}
 .course-cat-02-text span{color:#fff;font-size:15px;line-height:1;font-family:hind;display:inline-block;margin-bottom:15px}
 .course-cat-02-text .arrow-btn{
-    color:#ea5822;font-size:25px;display:inline-block;-webkit-transition:all .4s ease-out 0s;-moz-transition:all .4s ease-out 0s;
-    -ms-transition:all .4s ease-out 0s;-o-transition:all .4s ease-out 0s;transition:all .4s ease-out 0s
+    color:#ea5822;
+    font-size:25px;
+    display:inline-block;
+    -webkit-transition:all .4s ease-out 0s;
+    -moz-transition:all .4s ease-out 0s;
+    -ms-transition:all .4s ease-out 0s;
+    -o-transition:all .4s ease-out 0s;
+    transition:all .4s ease-out 0s
 }
 .cat-wrapper-02{position:relative;border:1px solid #4f4d80}
 @media(max-width:767px){.cat-wrapper-02{border:0}}
 .cat-wrapper-02 .course-cat-img{
-    position:absolute;height:100%;width:100%;z-index:1;top:0;left:0;right:0;bottom:0;opacity:0;
-    visibility:hidden;text-align:center;margin:0 auto;-webkit-transition:all .4s ease-out 0s;
-    -moz-transition:all .4s ease-out 0s;-ms-transition:all .4s ease-out 0s;-o-transition:all .4s ease-out 0s;
+    position:absolute;
+    height:100%;width:100%;
+    z-index:1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0;
+    visibility:hidden;
+    text-align:center;margin:0 auto;
+    -webkit-transition:all .4s ease-out 0s;
+    -moz-transition:all .4s ease-out 0s;
+    -ms-transition:all .4s ease-out 0s;
+    -o-transition:all .4s ease-out 0s;
     transition:all .4s ease-out 0s
 }
 @media only screen and (min-width:768px) and (max-width:991px){
@@ -923,10 +953,15 @@ label{
 @media(max-width:767px){.cat-wrapper-02 .course-cat-img{display:none}}
 @media only screen and (min-width:576px) and (max-width:767px){.cat-wrapper-02 .course-cat-img{display:none}}
 .cat-wrapper-02 .course-cat-img a{
-    overflow:visible;position:relative;
-    display:block;top:-5px;-webkit-transition:all .4s ease-out 0s;
-    -moz-transition:all .4s ease-out 0s;-ms-transition:all .4s ease-out 0s;
-    -o-transition:all .4s ease-out 0s;transition:all .4s ease-out 0s
+    overflow:visible;
+    position:relative;
+    display:block;
+    top:-5px;
+    -webkit-transition:all .4s ease-out 0s;
+    -moz-transition:all .4s ease-out 0s;
+    -ms-transition:all .4s ease-out 0s;
+    -o-transition:all .4s ease-out 0s;
+    transition:all .4s ease-out 0s
 }
 .cat-wrapper-02 .course-cat-img a::before{
     content:'';border-radius:14px;
@@ -948,7 +983,8 @@ label{
     height:55px;
     text-align:center;
     line-height:45px;
-    display:inline-block;position:absolute;
+    display:inline-block;
+    position:absolute;
     right:20px;bottom:-46px
 }
 .course-text-inner{padding:0 25px 20px}
@@ -1103,8 +1139,13 @@ label{
     transition:all .4s ease-out 0s
 }
 .team-icon>a{
-    font-size:13px;transition:.3s;height:33px;width:33px;
-    display:inline-block;text-align:center;line-height:33px;
+    font-size:13px;
+    transition:.3s;
+    height:33px;
+    width:33px;
+    display:inline-block;
+    text-align:center;
+    line-height:33px;
     border-radius:50%;
     color:#fff;margin-bottom:6px
 }
@@ -1158,7 +1199,9 @@ label{
 .team-wrapper-02:hover .team-icons{padding:10px 0;opacity:1;visibility:visible;margin-top:0;height:auto}
 .team-wrapper-02:hover .team-icons a{transform:scale(1)}
 .team-icons{
-    opacity:0;visibility:hidden;height:0;
+    opacity:0;
+    visibility:hidden;
+    height:0;
     -webkit-transition:all .4s ease-out 0s;
     -moz-transition:all .4s ease-out 0s;
     -ms-transition:all .4s ease-out 0s;
@@ -1237,7 +1280,11 @@ label{
 .events-02-img>a{position:relative;display:inline-block}
 @media(max-width:767px){.events-02-img>a{display:block}}
 .events-02-img>a::before{
-    position:absolute;left:0;top:0;height:100%;width:100%;content:"";
+    position:absolute;
+    left:0;top:0;
+    height:100%;
+    width:100%;
+    content:"";
     background:-moz-linear-gradient(90deg,#062a35 0%,rgba(12,37,48,0.5) 58%,rgba(17,33,45,0) 100%);
     background:-webkit-linear-gradient(90deg,#062a35 0%,rgba(12,37,48,0.5) 58%,rgba(17,33,45,0) 100%);
     background:-ms-linear-gradient(90deg,#062a35 0%,rgba(12,37,48,0.5) 58%,rgba(17,33,45,0) 100%);
@@ -1337,7 +1384,8 @@ label{
 @media only screen and (min-width:768px) and (max-width:991px){.right-tag{justify-content:center}}
 @media(max-width:767px){.right-tag{justify-content:center;margin-top:15px}}
 @media only screen and (min-width:576px) and (max-width:767px){.right-tag{margin-top:15px;justify-content:center}}
-.right-tag li{display:inline-block}.right-tag li .price-tag{
+.right-tag li{display:inline-block}
+.right-tag li .price-tag{
     color:#fff;font-size:24px;
     font-family:ibm plex sans,sans-serif;
     font-weight:700;line-height:1;
