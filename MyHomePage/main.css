@@ -9,6 +9,13 @@ a:focus,a:hover {
     margin:0 auto;
     max-width:90em;
 }
+.header-transparent {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:999;/*保证header一直在顶部 避免被后面的section给覆盖*/
+}
 nav>ul>li {
     display:inline-block;
     margin-right:2em;/*隔开每一项*/
@@ -39,7 +46,16 @@ nav>ul>li>a {
     border:2px solid #ddd;
     font-family:roboto
 }
-
+.c-btn i{
+    font-size:16px;
+    padding-left:12px;
+}
+.c-btn:hover{
+    color:#fff;
+    border-color:#ea5822;
+    background:#ea5822;
+    cursor:pointer;
+}
 .btn-round{
     background:0 0;
     border-radius:30px;
@@ -47,4 +63,21 @@ nav>ul>li>a {
     display:inline-block;
     color:#fff;
     padding:14px 30px
+}
+.btn-round:hover{
+    background:#3662ff;
+    border-color:#3662ff;
+}
+.pos-rel {
+    position: relative;
+}
+.blue-dark-bg {
+    background-color: #0E1851;
+}
+.single-slider {
+    background-position: center center;
+    background-size:cover;
+}
+.slider-height {
+    min-height: 950px;
 }
