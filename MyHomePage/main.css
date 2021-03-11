@@ -1,3 +1,10 @@
+body {
+    font-size:18px;
+}
+ul {
+    margin:0;
+    padding:0;
+}
 li {
     list-style: none;
 }
@@ -18,13 +25,25 @@ a:focus,a:hover {
 }
 nav>ul>li {
     display:inline-block;
+    position: relative;
     margin-right:2em;/*隔开每一项*/
 }
 nav>ul>li>a {
-    display:inline-block;
+    display:block;
+    position: relative;
     text-transform: capitalize;
     line-height: 1;
     padding:47px 0;/*撑开上下空间*/
+    font-size:18px;
+    color:#fff;
+}
+nav>ul>li>a i {
+    display:inline-block;
+    margin-left:3px;
+    position:relative;
+}
+nav>ul>li:hover>a{
+    color:#ea5822;
 }
 
 .text-center {
@@ -65,8 +84,8 @@ nav>ul>li>a {
     padding:14px 30px
 }
 .btn-round:hover{
-    background:#3662ff;
-    border-color:#3662ff;
+    background:#ea5822;
+    border-color:#ea5822;
 }
 .pos-rel {
     position: relative;
