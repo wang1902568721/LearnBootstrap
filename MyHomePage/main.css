@@ -37,10 +37,8 @@ nav>ul>li>a {
     font-size:18px;
     color:#fff;
 }
-nav>ul>li>a i {
-    display:inline-block;
+nav>ul>li>a span {
     margin-left:3px;
-    position:relative;
 }
 nav>ul>li:hover>a{
     color:#ea5822;
