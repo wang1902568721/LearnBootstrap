@@ -41,18 +41,53 @@
                                 <a class="c-btn btn-round" style="margin-right: 10px;">sign in<span class="fa fa-user-circle"></span></a>
                                 <a class="c-btn btn-round">sign up<span class="fa fa-user-circle"></span></a>
                             </div>
-                            <div class="d-xl-none d-lg-inline-block">
-                                <a href="#"><img src="../LearnIdealHomePage2/assets/img/icon/bar.png"></a>
+                            <div id="hamburger-menu" class="d-xl-none d-lg-inline-block">
+                                <a href=""><img src="../LearnIdealHomePage2/assets/img/icon/bar.png"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <aside class="slide-bar">
+                <div class="close-mobile-menu">
+                    <a href="javascript:void(0)"><span class="fa fa-times"></span></a>
+                </div>
+                <nav class="side-mobile-menu">
+                    <ul id="mobie-menu-active">
+                        <li class="has-dropdown">
+                            <a href="index.html">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home style 1</a></li>
+                                <li><a href="index.html">Home Style 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a>Course</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Course</a></li>
+                                <li><a href="">Course list</a></li>
+                                <li><a href="">Course Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a>Events</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Events list</a></li>
+                                <li><a href="">Event Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"></li>
+                        <li class="has-dropdown"></li>
+                    </ul>
+                </nav>
+            </aside>
         </header>
         <main>
             <section class="pos-rel blue-dark-bg">
                 <div class="slider-height single-slider d-flex align-items-center"></div>
             </section>
         </main>
+        <script src="../../Js/jQuery-3.5.0.js"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
