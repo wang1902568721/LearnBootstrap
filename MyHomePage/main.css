@@ -23,18 +23,18 @@ a:focus,a:hover {
     right:0;
     z-index:999;/*保证header一直在顶部 避免被后面的section给覆盖*/
 }
-nav>ul>li {
+.main-menu nav>ul>li {
     display:inline-block;
     position: relative;
     margin-right:2em;/*隔开每一项*/
 }
 @media only screen and (min-width:1200px) and (max-width:1600px) {
-    nav>ul>li {
+    .main-menu nav>ul>li {
         margin-left:13px;
         margin-right:3px;/*隔开每一项*/
     }
 }
-nav>ul>li>a {
+.main-menu nav>ul>li>a {
     display:block;
     position: relative;
     text-transform: capitalize;
@@ -43,10 +43,10 @@ nav>ul>li>a {
     font-size:18px;
     color:#fff;
 }
-nav>ul>li>a span {
+.main-menu nav>ul>li>a span {
     margin-left:3px;
 }
-nav>ul>li:hover>a {
+.main-menu nav>ul>li:hover>a {
     color:#ea5822;
 }
 
@@ -115,6 +115,7 @@ nav>ul>li:hover>a {
     right:-370px;
     width:350px;
     height:100%;
+    padding:25px 30px;
     display:block;
     background-color:#062a35;
     z-index:1020;
@@ -125,6 +126,15 @@ nav>ul>li:hover>a {
     right:0;
 }
 
+.side-mobile-menu ul li a {
+    padding:13px 0;
+    display:block;
+    text-transform: uppercase;
+    position:relative;  
+    font-size:1em;
+    color:#fff;
+}
+/*点击前效果<*/
 .side-mobile-menu ul li.has-dropdown>a::after {
     position:absolute;
     content:"";
@@ -136,4 +146,24 @@ nav>ul>li:hover>a {
     border-style:solid;
     transform:rotate(-45deg) translateY(-50%);
     transform-origin:top;
+    transition:all .3s ease-out;
+}
+/*点击后效果v*/
+.side-mobile-menu ul li.has-dropdown>a[aria-expanded=true]:after {
+    transform: rotate(-135deg) translateY(-50%);
+}
+
+.side-mobile-menu ul li ul li {
+    padding-left:15px;
+}
+.side-mobile-menu ul li ul li:hover>a {
+    color:#ea5822;
+    padding-left:20px;
+}
+.side-mobile-menu ul li ul li a::before {
+    content:"";
+    width:8px;
+    height:8px;
+    border:2px solid #fff;
+    border-radius: 50%;
 }

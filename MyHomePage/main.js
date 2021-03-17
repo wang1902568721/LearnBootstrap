@@ -1,3 +1,9 @@
+"use strict";
+$('#mobile-menu-active').metisMenu();
+$('#mobile-menu-active .has-dropdown > a').on('click',function(e){
+    e.preventDefault();
+});
+
 //点击菜单栏按钮显示菜单栏
 $("#hamburger-menu > a").on("click",
 function(e){
