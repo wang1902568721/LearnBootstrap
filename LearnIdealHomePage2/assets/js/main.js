@@ -183,4 +183,5 @@ if(typeof($.fn.knob)!='undefined'){
     $this.appear(function(){
         $({value:0}).animate({value:knobVal},{duration:2000,easing:'swing',step:function(){
             $this.val(Math.ceil(this.value)).trigger('change');
-    }});},{accX:0,accY:-150});});}})(jQuery);
+    }});},{accX:0,accY:-150});});}
+})(jQuery);
