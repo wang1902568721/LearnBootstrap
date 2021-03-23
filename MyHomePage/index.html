@@ -50,6 +50,7 @@
                 </div>
             </div>
             <aside class="slide-bar">
+                <div class="slide-bar-container">
                 <div class="close-mobile-menu">
                     <a href="javascript:void(0)"><span class="fa fa-times"></span></a>
                 </div>
@@ -63,7 +64,9 @@
                             </ul>
                         </li>
                         <li class="has-dropdown">
-                            <a>Course</a>
+                            <!--这里的a标签必须有href，如果没有样式会被Bootstrap样式取代，导致颜色继承 显示不出来
+                            或者通过提升样式等级来显示，如加!important等-->
+                            <a href="index.html">Course</a>
                             <ul class="sub-menu">
                                 <li><a href="">Course</a></li>
                                 <li><a href="">Course list</a></li>
@@ -71,16 +74,15 @@
                             </ul>
                         </li>
                         <li class="has-dropdown">
-                            <a>Events</a>
+                            <a href="index.html">Events</a>
                             <ul class="sub-menu">
                                 <li><a href="">Events list</a></li>
                                 <li><a href="">Event Details</a></li>
                             </ul>
                         </li>
-                        <li class="has-dropdown"></li>
-                        <li class="has-dropdown"></li>
                     </ul>
                 </nav>
+            </div>
             </aside>
         </header>
         <main>
