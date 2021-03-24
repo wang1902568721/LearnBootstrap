@@ -180,3 +180,41 @@ a:focus,a:hover {
     padding-left:15px;
     text-transform: capitalize;
 }
+
+.course-area {
+    padding-top:130px;
+    padding-bottom: 100px;
+}
+
+.section-title span {
+    color:#fff;
+}
+
+.section-title h2 {
+    line-height: 1;
+    margin-bottom:0;
+    margin-top:14px;
+    color:#fff;
+}
+
+.course-wrapper {
+    border:1px solid #4f4d80;
+}
+
+.course-wrapper .course-hover-img
+{
+    height:100%;
+    width:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    margin:0 auto;
+}
+.course-wrapper:hover .course-hover-img {
+    opacity: 1;
+    visibility: visible;
+}
