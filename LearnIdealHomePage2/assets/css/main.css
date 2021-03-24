@@ -980,11 +980,15 @@ label{
     transition:all .4s ease-out 0s
 }
 .cat-wrapper-02 .course-cat-img a::before{
-    content:'';border-radius:14px;
+    content:'';
+    border-radius:14px;
     background-color:#0c41ff;
-    opacity:.929;box-shadow:0 10px 60px 0 rgba(54,98,255,.4);
-    position:absolute;left:0;top:0;width:100%;
-    height:100%;z-index:1
+    opacity:.929;
+    box-shadow:0 10px 60px 0 rgba(54,98,255,.4);
+    position:absolute;
+    left:0;top:0;width:100%;
+    height:100%;
+    z-index:1
 }
 .cat-wrapper-02 .course-cat-img a img{border-radius:14px}
 .cat-wrapper-02:hover{border:0}
@@ -1948,7 +1952,8 @@ label{
 .comments-box .avatar-name .reply{color:#757575;font-size:13px;line-height:1;font-family:roboto;font-weight:700;text-transform:uppercase;position:absolute;right:8px;top:14px}
 .comments-box .avatar-name .reply:hover{color:#ea5822}
 @media(max-width:767px){.comments-box .avatar-name .reply{position:absolute;right:-5px;top:33px}}
-.search-course-area{background:#000846}.search-course-area .search-title h3{color:#fff;font-size:35px}
+.search-course-area{background:#000846}
+.search-course-area .search-title h3{color:#fff;font-size:35px}
 .search-course-area .cat-selsct{width:100%;height:85px;border-radius:50px;margin-left:70px}
 @media only screen and (min-width:1200px) and (max-width:1600px){.search-course-area .cat-selsct{margin-left:0}}
 @media only screen and (min-width:992px) and (max-width:1200px){.search-course-area .cat-selsct{margin-left:0}}
