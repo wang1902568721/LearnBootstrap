@@ -107,7 +107,7 @@ a:focus,a:hover {
     background-size:cover;
 }
 .slider-height {
-    min-height: 950px;
+    min-height: 1150px;
 }
 .slide-bar {
     position:fixed;
@@ -186,6 +186,9 @@ a:focus,a:hover {
     padding-bottom: 100px;
 }
 
+.section-title {
+    margin-bottom:85px;
+}
 .section-title span {
     color:#fff;
 }
@@ -199,10 +202,12 @@ a:focus,a:hover {
 
 .course-wrapper {
     border:1px solid #4f4d80;
+    position:relative;
 }
 
 .course-wrapper .course-hover-img
 {
+    position:absolute;/*绝对定位脱离文本流使得后面的text可以显示在它的上面*/
     height:100%;
     width:100%;
     top:0;
@@ -214,7 +219,47 @@ a:focus,a:hover {
     text-align: center;
     margin:0 auto;
 }
+.course-wrapper .course-hover-img a img {
+    border-radius: 14px;
+}
+.course-wrapper:hover {
+    border:0;
+}
 .course-wrapper:hover .course-hover-img {
     opacity: 1;
     visibility: visible;
+}
+.course-wrapper:hover .course-hover-img a {
+    transform:scale(1.1);
+}
+.course-wrapper:hover .course-text-area {
+    border:0;
+}
+.course-icon {
+    margin-bottom:25px;
+}
+.course-text-area {
+    padding:49px 0 30px;
+    border:0;
+    position:relative;
+    text-align:center;
+}
+
+.course-text-area .course-icon span {
+    color:#3662ff;
+    font-size:50px;
+    line-height:1;
+}
+.course-text-area h4 {
+    color:#fff;
+}
+.course-text-area span {
+    color:#fff;
+    font-size:15px;
+    line-height: 1;
+    margin-bottom:15px;
+}
+.course-text-area .course-arrow-btn {
+    color:#ea5822;
+    font-size:25px;
 }
