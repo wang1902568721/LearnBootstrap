@@ -797,7 +797,12 @@ label{
 .course-cat-img a{display:block;overflow:hidden}
 .course-cat-img a img{width:100%;transition:.3s}
 .course-cat-wrapper:hover .course-cat-img img{transform:scale(1.1)}
-.course-cat-text{border-left:1px solid #d7d7d7;border-right:1px solid #d7d7d7;border-bottom:1px solid #d7d7d7;padding:31px 20px 28px 32px}
+.course-cat-text{
+    border-left:1px solid #d7d7d7;
+    border-right:1px solid #d7d7d7;
+    border-bottom:1px solid #d7d7d7;
+    padding:31px 20px 28px 32px;
+}
 @media only screen and (min-width:992px) and (max-width:1200px){.course-cat-text{padding:31px 5px 28px}}
 .course-cat-text h4{font-size:22px;margin-bottom:8px;letter-spacing:-.3px}
 .course-cat-text h4 a{transition:.3s}
@@ -915,7 +920,9 @@ label{
 .course-btn a.c-btn{border-color:#417b8d;color:#417b8d}
 .course-btn a.c-btn:hover{color:#fff;border-color:#ea5822}
 .course-cat-02-text{
-    border:0;padding:49px 0 30px;position:relative;
+    border:0;
+    padding:49px 0 30px;
+    position:relative;
     z-index:3;
     -webkit-transition:all .4s ease-out 0s;
     -moz-transition:all .4s ease-out 0s;
@@ -924,7 +931,8 @@ label{
     transition:all .4s ease-out 0s
 }
 .course-cat-02-text .course-icon i{
-    color:#3662ff;font-size:50px;
+    color:#3662ff;
+    font-size:50px;
     line-height:1;
     -webkit-transition:all .4s ease-out 0s;
     -moz-transition:all .4s ease-out 0s;
@@ -932,8 +940,17 @@ label{
     -o-transition:all .4s ease-out 0s;
     transition:all .4s ease-out 0s
 }
-.course-cat-02-text h4 a{color:#fff}
-.course-cat-02-text span{color:#fff;font-size:15px;line-height:1;font-family:hind;display:inline-block;margin-bottom:15px}
+.course-cat-02-text h4 a{
+    color:#fff;
+}
+.course-cat-02-text span{
+    color:#fff;
+    font-size:15px;
+    line-height:1;
+    font-family:hind;
+    display:inline-block;
+    margin-bottom:15px;
+}
 .course-cat-02-text .arrow-btn{
     color:#ea5822;
     font-size:25px;
@@ -1005,7 +1022,8 @@ label{
     line-height:45px;
     display:inline-block;
     position:absolute;
-    right:20px;bottom:-46px
+    right:20px;
+    bottom:-46px;
 }
 .course-text-inner{padding:0 25px 20px}
 .course-text-inner .course-cat-meta span a{text-transform:uppercase;padding:5px 16px}
