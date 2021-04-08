@@ -215,6 +215,7 @@ a:focus,a:hover {
 .course-hover-img a img{
     width:100%;
     transition:.3s;
+    overflow:hidden;
 }
 
 .course-wrapper .course-hover-img {
@@ -264,6 +265,7 @@ a:focus,a:hover {
 }
 .course-wrapper .course-hover-img a img {
     border-radius:14px;
+    object-fit: cover;/*没效果*/
 }
 .course-wrapper:hover{
     border:0;
