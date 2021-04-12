@@ -8,7 +8,6 @@
             border:1px solid royalblue;
             width:349.683px;
             height:281.05px;
-            overflow: hidden;
         }
         .wrapper .coverImg {
             position:absolute;
@@ -27,12 +26,8 @@
             -o-transition:all .4s ease-out 0s;
             transition:all .4s ease-out 0s
         }
-        .wrapper .coverImg a {
-            position:relative;
-            display:block;
-            overflow:visible;
-        }
-        .wrapper .coverImg a::before {
+
+        .wrapper .coverImg::before {
             content:'';
             border-radius:14px;
             background-color:#0c41ff;
@@ -45,15 +40,17 @@
             height:100%;
             z-index:1;
         }
-        .coverImg a img {
+        .coverImg img {
             width:100%;
+            height:100%;
+            object-fit: cover;
         }
         </style>
     </head>
     <body>
         <div class="wrapper">
             <div class="coverImg">
-                <a href="courses-details.html"><img src="./assets/img/course/c-03.png" alt=""></a>
+                <img src="./assets/img/course/c-03.png" alt="">
             </div>
         </div>
     </body>

@@ -238,19 +238,9 @@ a:focus,a:hover {
     transition:all .4s ease-out 0s
 }
 
-.course-wrapper .course-hover-img a{
-    overflow:visible;
-    position:relative;
-    display:block;
-    top:-5px;
-    -webkit-transition:all .4s ease-out 0s;
-    -moz-transition:all .4s ease-out 0s;
-    -ms-transition:all .4s ease-out 0s;
-    -o-transition:all .4s ease-out 0s;
-    transition:all .4s ease-out 0s;
-}
 
-.course-wrapper .course-hover-img a::before{
+
+.course-wrapper .course-hover-img::before{
     content:'';
     border-radius:14px;
     background-color:#0c41ff;
@@ -263,8 +253,10 @@ a:focus,a:hover {
     height:100%;
     z-index:1;
 }
-.course-wrapper .course-hover-img a img {
+.course-wrapper .course-hover-img img {
     border-radius:14px;
+    width:100%;
+    height:100%;
     object-fit: cover;/*没效果*/
 }
 .course-wrapper:hover{
@@ -274,7 +266,7 @@ a:focus,a:hover {
     opacity:1;
     visibility:visible;
 }
-.course-wrapper:hover .course-hover-img a{
+.course-wrapper:hover .course-hover-img{
     transform:scale(1.1);
 }
 
