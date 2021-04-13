@@ -2209,7 +2209,11 @@ label{
 .card-02 .card-header button.btn-link{color:#ea5822}
 .card-02 .card-header button.collapsed{color:#062a35}
 .card-02 .card-body .card-content{padding:30px 0 25px;border-bottom:1px solid #ebebeb;border-right:0;border-left:0}
-.footer-area{background-size:cover;background-position:center;background-repeat:no-repeat}
+.footer-area{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 .footer-logo{padding-bottom:50px;border-bottom:1px solid #1d303f;position:relative}
 @media(max-width:767px){.footer-logo{border-bottom:none}}
 @media only screen and (min-width:576px) and (max-width:767px){.footer-logo{border-bottom:none}}
