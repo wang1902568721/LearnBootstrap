@@ -334,8 +334,17 @@ a:focus,a:hover {
     font-size:16px;
     padding-left:85px;
     position: relative;
+    padding-bottom:70px;
 }
-
+.footer-social-icon a:hover::before {
+    width:100%;
+    content:" ";
+    position:absolute;
+    background-color: #ea5822;
+    bottom:-3px;
+    transition:.3s;/*貌似无效*/
+    height:2px;
+}
 .footer-social-icon a span {
     color:#FFF;
     background:#1771E6;
