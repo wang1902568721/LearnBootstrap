@@ -107,7 +107,7 @@ a:focus,a:hover {
     background-size:cover;
 }
 .slider-height {
-    min-height: 1150px;
+    min-height: 900px;
 }
 .slide-bar {
     position:fixed;
